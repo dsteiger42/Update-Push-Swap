@@ -60,7 +60,7 @@ static void	push(node **src, node **dest)
 		(*dest)->next = temp_dest;
 		temp_dest->prev = temp_src;
 	}
-	update_push_index(src, dest);
+	update_index(src, dest);
 }
 void	pb(node **a_stack, node **b_stack)
 {
